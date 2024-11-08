@@ -4,8 +4,8 @@ import java.io.*;
 
 public class SimpleCryptographyWithBuffered{
     public static void main(String[] args) throws IOException {
-        String input = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/krypto/input.txt";
-        String output = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/krypto/output.txt";
+        String input = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/text_files/input.txt";
+        String output = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/results/simple_cryptography.txt";
 
         try(BufferedReader reader = new BufferedReader(new FileReader(input))){
             BufferedWriter writer = new BufferedWriter(new FileWriter(output));

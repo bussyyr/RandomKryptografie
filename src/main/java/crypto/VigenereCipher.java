@@ -4,9 +4,9 @@ import java.io.*;
 
 public class VigenereCipher {
     public static void main(String[] args) throws IOException {
-        String input = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/krypto/input.txt";
-        String output = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/krypto/vigenere_cipher_output.txt";
-        String keyword = "BUS";
+        String input = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/text_files/input.txt";
+        String output = "/Users/buseokcu/Downloads/RandomKryptografie/src/main/java/results/vigenere_cipher_output.txt";
+        String keyword = "KEY";
 
         try(BufferedReader reader = new BufferedReader(new FileReader(input))){
             BufferedWriter writer = new BufferedWriter(new FileWriter(output));
