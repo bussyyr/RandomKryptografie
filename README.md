@@ -22,5 +22,5 @@ I learned these encryption methods during my Internetkommunikation course. Addit
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your_username/text-encryption-project.git
+   git clone https://github.com/bussyyr/text-encryption-project.git
    cd text-encryption-project
